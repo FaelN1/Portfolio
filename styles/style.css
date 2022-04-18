@@ -69,3 +69,35 @@ nav{
     font-family: 'Roboto', sans-serif;
     color: white;
 }
+.texto-alinhado{
+    width: fit-content;
+    margin: 15px auto 5px auto;
+    font-size: 35px;
+}
+.texto-alinhado::after{
+    content: '';
+    height: 3px;
+    width: 10%;
+    background: #1b2538;
+    position: absolute;
+    left: 45%;
+    bottom: -53px;
+}
+.skills{
+    width: 70%;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+.skills ul li{
+    display: inline-block;
+    padding-left: 137px;
+    margin: 0px -7px;
+    text-align: center;
+    font-weight: bold;
+}
+.skills img{
+    width: 50px;
+}
+#sobre{
+    visibility: hidden;
+}

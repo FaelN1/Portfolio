@@ -9,3 +9,7 @@ function typeWriter(elemento){
 const apresentacao = document.querySelector('.content-info .sobre p')
 typeWriter(apresentacao)
 
+
+
+window.sr = ScrollReveal({ reset: true});
+sr.reveal('#sobre', { duration: 1000 });
