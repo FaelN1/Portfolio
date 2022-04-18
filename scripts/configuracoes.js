@@ -1,3 +1,4 @@
+/*Escrita*/
 function typeWriter(elemento){
     const textoArray = elemento.innerHTML.split('');
     elemento.innerHTML = '';
@@ -8,8 +9,10 @@ function typeWriter(elemento){
 
 const apresentacao = document.querySelector('.content-info .sobre p')
 typeWriter(apresentacao)
+/*Escrita*/
 
 
-
+/*Surgir*/
 window.sr = ScrollReveal({ reset: true});
-sr.reveal('#sobre', { duration: 1000 });
+sr.reveal('#sobre', { duration: 2000 });
+/*Surgir*/

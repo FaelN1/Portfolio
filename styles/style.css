@@ -1,12 +1,12 @@
 ::-webkit-scrollbar{
-    width: 12px;
-    background-color: lightslategray;
+    width: 10px;
     border-radius: 7px;
 }
 
 ::-webkit-scrollbar-thumb{
+    
     border-radius: 7px;
-    background-color: #1b2538;
+    background-color: #001524;
 
 }
 /*Scroll bar*/
@@ -64,9 +64,9 @@ nav{
     top: 50%;
     left: 22%;
 }
-.content-info.sobre {
+.content-info .sobre {
     font-size: 1.5em;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     color: white;
 }
 .texto-alinhado{
@@ -76,9 +76,9 @@ nav{
 }
 .texto-alinhado::after{
     content: '';
-    height: 3px;
+    height: 4px;
     width: 10%;
-    background: #1b2538;
+    background: #001524;
     position: absolute;
     left: 45%;
     bottom: -53px;
@@ -90,14 +90,33 @@ nav{
 }
 .skills ul li{
     display: inline-block;
-    padding-left: 137px;
-    margin: 0px -7px;
     text-align: center;
     font-weight: bold;
+    font-size: 25px;
+}
+.left{
+    padding-left: 17%;
 }
 .skills img{
+    padding-top: 25px;
     width: 50px;
 }
 #sobre{
     visibility: hidden;
 }
+.vermelho{
+    color: red;
+}
+.experiencia{
+    padding-top: 40%;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.empresa{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 1.3em;
+	font-family: 'Roboto', sans-serif;
+}
+
