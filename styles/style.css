@@ -61,6 +61,11 @@
     body {
       overflow-x: hidden;
     }
+    main{
+        background: url("../img/bg-cell.png") no-repeat center center;
+        background-size: cover;
+        height: 92vh;
+    }
     .nav-list {
       position: absolute;
       top: 8vh;
